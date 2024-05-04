@@ -1,0 +1,12 @@
+on:
+  push:
+    tags: ['*']
+
+jobs:
+  export-pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Export PDFs
+        uses: ./.github/actions/markdown-to-pdf

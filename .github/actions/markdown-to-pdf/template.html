@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: center; 
+        }
+        @media print {
+            @page { 
+                margin-left: 1.2cm;
+                margin-top: 1.2cm;
+                width: calc(100% - 4cm);
+                height: calc(100% - 4cm);
+                
+            }
+            .grafic {
+                page-break-after: always;
+                page-break-before: avoid;
+            }
+            body { 
+                margin: 0;
+                page-break-inside: avoid;
+            }
+            table {
+                page-break-inside: avoid;
+            }
+
+            pb {
+                display: block;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    $body$
+</body>
+</html>

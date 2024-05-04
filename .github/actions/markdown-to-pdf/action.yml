@@ -1,0 +1,21 @@
+name: "Markdown PDF Exporter"
+description: "Converts markdown files with mathjax to PDFs, allowing for special tags to control page breaks."
+runs:
+  using: "composite"
+  steps:
+    - uses: tecolicom/actions-use-apt-tools@v1
+      with:
+        tools: 'pandoc chromium-browser'
+        cache: yes
+    - name: "Convert markdown files to PDFs"
+      shell: bash
+      run: ${{ github.action_path }}/convert.sh ${{ github.action_path }}/template.html
+    - name: "Zip PDFs"
+      shell: bash
+      run: zip -r documente.zip output/
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          documente.zip
