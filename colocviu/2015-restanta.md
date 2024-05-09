@@ -1,0 +1,18 @@
+# Enunț
+
+La fiecare început de an, conducerea clubului exclusivist X prezintă bilanțul activităților anului precedent, pe baza acestor date stabilindu-se strategia de marketing pe anul în curs. Bilanțul cuprinde informații despre membrii clubului și serviciile achiziționate de aceștia, precum și despre potențialii viitori membri.
+
+Din rațiuni de securitate clubul reține numele, prenumele și cnp-ul fiecarei persoane cu care intră în contact. În cazul în care o persoană care a vizitat măcar o dată clubul (deci există în baza de date cu statutul de ne-membru) a achiziționat măcar un serviciu oferit de acesta, acelei persoane i stochează și adresa de e-mail, astfel încât poate primi ulterior news-lettere cu oferta clubului.
+
+În cazul membrilor clubului se reține și data adeziunii și tipul de apartenență (clubul ofera 3 tipuri de apartenență [membership] – Premium, Gold și Silver, pachetele de facilități oferite fiind diferite (de exemplu, la petrecerea anuală nu au acces decât posesorii de carduri Premium)). Tot în cadrul clubului, diferențierea se poate face și în cadrul aceleiasi categorii, existând, pe lângă activități comune și câteva dedicate în principal doamnelor (prezentări de modă, ședinţe de bien – être, etc.) sau în principal domnilor (mini-turnee de fotbal, serate “Las-Vegas”, etc.).
+
+De asemenea fișa fiecărui membru mai conține două câmpuri: primul câmp e constant și reprezintă plafonul minim de cheltuieli pe care un membru trebuie să îl atingă în decursul unui an pentru a-și păstra categoria din care face parte (pentru 2015 plafonul minim a fost: 50000 euro – Premium, 40000 – euro Gold și 30000 euro - Silver), iar al doilea reprezintă totalul cheltuielilor efectuate de acesta prin achiziționarea serviciilor clubului. Acest câmp se va actualiza ori de câte ori persoana va achiziționa un nou serviciu. Trebuie menționat că în cazul membrilor de sex feminin, plafonul minim este de 80% din plafonul standard (de exemplu, pentru anul 2015, Premium – 40000 euro, etc.). În plus, orice serviciu achiziționat în data de 8 martie este gratuit. Domnii, în schimb, beneficiază de un discount de 50% pe parcursul lunii aprilie. 
+
+Oferta anuală a clubului apare sub forma unei broșuri. Pentru fiecare activitate este menționată în broșură denumirea, restricțiile (Premium / Gold/ Silver / All), categoria preferențiată (Doamne / Domni / Both) și prețul oferit. Totuși, clubul are un sistem de acordare a unor discount-uri pentru membrii săi. Sistemul este automatizat și ține cont de cele trei tipuri de carduri de membru: deținătorii unui card Premium primesc automat un discount de 20%, cei care au un card Gold – 15%, respectiv posesorii de card Silver – 10%. În plus, dacă serviciul este achiziționat de o familie (atât soțul cât și soția sunt membrii ai clubului X), discount-ul va fi dat de suma discount-urilor individuale (de exemplu, dacă soțul are card Premium și soţia are card Gold, discount-ul va fi de 35%).
+
+Sunteţi rugați să printați bilanțul clubului X care e structurat astfel:
+
+- lista tuturor persoanelor care au numele și prenumele în baza de date, grupate pe categorii: membru (cu sub-categoriile aferente), cumpărător ocazional sau potențial;
+- lista tuturor membrilor Gold care au cumpărat “pachete turistice” pentru anul 2016, ordonată după data cumpărării;
+- lista tuturor familiilor invitate la petrecerea aniversară;
+- lista celor care vor pierde calitatea de membru Premium pe 2016.
