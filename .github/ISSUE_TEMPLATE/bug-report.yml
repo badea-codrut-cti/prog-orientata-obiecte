@@ -1,0 +1,21 @@
+name: Sesizare Greseli
+description: Daca ati sesizat o greseala in continut.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descriere
+    attributes:
+      label: Descriere
+      description: Descrieti greseala pe care ati intampinat-o.
+      placeholder: Ati mancat o litera in `examene/2005.md` la linia 18.
+    validations:
+      required: true
+  - type: textarea
+    id: solutie
+    attributes:
+      label: Solutie propusa
+      description: Ce modificare trebuie facuta?
+      placeholder: Scrie "librarie" in loc de "libarie" la linia 18.
+    validations:
+      required: false

@@ -1,0 +1,39 @@
+name: Contribuire Materiale
+description: Aveti materiale care doriti sa fie adaugate?
+title: "[Material]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: tip_material
+    attributes:
+      label: Tip de material
+      description: Ce material doriti sa contribuiti.
+      options:
+        - Subiect de examen/colocviu
+        - Model de examen/colocviu
+        - Resursa
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link catre resursa
+      placeholder: https://google.com
+    validations:
+      required: false
+  - type: textarea
+    id: descriere
+    attributes:
+      label: Descriere
+      description: Daca aveti ceva de adaugat despre resursa respectiva.
+      placeholder: Acest model de subiect a fost rezolvat de catre profesor la cursul 12.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Permisiune
+      description: Daca materialul distribuit este aprobat de catre proprietarul drepturilor de autor.
+      options:
+        - label: Am permisiunea sa distribui acest material.
+          required: true

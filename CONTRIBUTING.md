@@ -1,6 +1,7 @@
 # Contributing
 
 Materialele care pot fi contribuite includ, dar nu sunt limitate la:
+
  - subiecte de examen sau colocviu
  - subiecte propuse de examen sau colocviu
  - subiecte rezolvate de catre profesor
@@ -10,6 +11,7 @@ Materialele care pot fi contribuite includ, dar nu sunt limitate la:
 Nu contribuiti subiecte rezolvate de voi chiar daca in urma rezolvarii examenului ati obtinut punctaj maximal. Exista posibilitatea ca un profesor sa rateze o greseala la corectare (avand sute de lucrari este justificat) sau sa nu fie reprezentativ calificativul obtinut (i.e nota marita din puncte bonus, grading on a curve, etc). Nu contribuiti teme rezolvate din aceleasi motive.
 
 Examenele vor fi scrise in format markdown, precizand in antet, in cazul in care sunt cunoscute, urmatoarele informatii:
+
  - anul in care a fost dat subiectul (daca acelasi subiect a fost dat in ani diferiti sunt separati prin virgula)
  - daca subiectul a fost dat in restanta
  - seria (sau grupa) la care a fost dat subiectul (daca sunt mai multe)

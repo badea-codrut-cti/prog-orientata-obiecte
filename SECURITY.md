@@ -1,0 +1,1 @@
+Daca sesizati vreun material ce contine informatii intentionat eronate (i.e examene fictive, care nu au fost date), continut incarcat fara consintamantul creatorului original sau material ce contine cod malitios, raportati printr-un e-mail la `oreoezi@oreo.ac`.
